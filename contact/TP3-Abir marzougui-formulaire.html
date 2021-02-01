@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 3</title>
+  <link rel="stylesheet" href="../app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar Section -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../page d'acceuil/Ma fiche Pédagogique 3 ème français.html">Fiche
+        Pédagogique</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../fiche expression orale/fiche expression orale.html">Expression
+              Orale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../FIHCE POEME/fiche poeme.html">Poeme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../fiche lecture/fiche lecture.html">Lecture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact/TP3-Abir marzougui-formulaire.html">Conatct</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <div class="title1 py-5 text-center">
+    <h1>Mon premier Formulaire HTML5</h1>
+  </div>
+
+  <!-- Main Section -->
+  <section id="contact">
+    <div class="container py-5">
+      <fieldset class="scheduler-border">
+        <legend class="scheduler-border">Vos données personnelles</legend>
+        <form>
+          <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" class="form-control w-50" id="nom" placeholder="votre nom">
+          </div>
+          <div class="form-group">
+            <label for="prenom">Prénom </label>
+            <input type="text" class="form-control w-50" id="prenom" placeholder="votre prenom">
+          </div>
+          <div class="form-group">
+            <label for="datedenaissance">Date de naissance </label>
+            <input type="date" class="form-control w-25" id="datedenaissance" placeholder="">
+          </div>
+
+          <fieldset class="scheduler-border">
+            <legend class="scheduler-border">Lieu de naissance</legend>
+            <input type="radio" name="s4" value="oui" checked="checked"><label> Tunis</label> <br>
+            <input type="radio" name="s5" value="non"> <label> Reste du pays</label>
+          </fieldset>
+          <div class="form-group">
+            <label for="adresse">Adresse Postale </label>
+            <textarea name="message" id="adresse" class="form-control w-75" rows="2" cols="30">votre adresse</textarea>
+          </div>
+          <div class="form-group">
+            <label for="postal">Code Postal</label>
+            <input type="number" class="form-control w-25" id="postal" placeholder="1001">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Adresse Email</label>
+            <input type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="votre email">
+          </div>
+          <div class="form-group">
+            <label for="page">Page personnelle</label>
+            <input type="text" class="form-control w-50" id="page" placeholder="votre page web">
+          </div>
+          <div class="form-group">
+            <label for="telephone">Téléphone Portable</label>
+            <input type="text" class="form-control w-25" id="telephone" placeholder="97100001">
+          </div>
+          <div class="form-group">
+            <label for="semestre">Semetsre</label>
+            <select name="semestre" class="form-control w-25" is="semestre">
+              <option>S1</option>
+              <option selected>S2</option>
+              <option>S3</option>
+              <option>S4</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="niveau">Niveau HTML</label>
+            <input type="range" name="s15" id="n" min="0" max="10" step="1" class="form-control w-25" id="niveau">
+
+            <fieldset class="scheduler-border">
+              <legend class="scheduler-border">Connaissance</legend>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="s11" checked="checked"><label
+                  class="form-check-input">HTML</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="s12"><label class="form-check-input">CSS</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="s13"><label
+                  class="form-check-input">Formulaires</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="s14"><label
+                  class="form-check-input">JavaScript</label>
+              </div>
+
+            </fieldset>
+
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </fieldset>
+    </div>
+  </section>
+
+  <footer class="footer mt-auto py-1 bg-dark text-center">
+    <p class="text-muted"> Formulaire réalise dans le cadre du Tp3 master NTE </p>
+  </footer>
+</body>
+
+</html>

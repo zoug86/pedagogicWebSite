@@ -1,0 +1,76 @@
+
+/* Page d'acceuil */
+
+.title1 h1{
+    color: #fff;
+}
+
+.title1{
+    background-image: linear-gradient(to right, rgb(28, 23, 28), rgb(8, 4, 10));
+}
+
+#presentaiton{
+    background: rgb(250, 246, 241);
+}
+
+
+#performance{
+    background: #fff;
+}
+
+.performance{
+    padding-top: 50px;
+}
+
+.title{
+    color:#111;
+    margin-bottom: 100px;
+        background: rgba(228, 220, 186, 0.4);
+        padding: 3rem;
+        border: 1px solid #111;
+}
+.service-img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.centertext{
+    text-align: center;
+}
+
+/* Page Expression orale */
+
+#expressionoral{
+    background-color:  rgb(250, 246, 241);
+}
+
+/* Page Poeme */
+
+#poeme{
+    background-color:  rgb(250, 246, 241);
+}
+
+/* Page Lecture */
+
+#lecture{
+    background-color:  rgb(250, 246, 241);
+}
+
+
+/* Page Contact */
+
+#contact{
+    background-color:  rgb(250, 246, 241);
+}
+
+fieldset.scheduler-border {
+    border: 1px solid #111;
+    padding: 0 1.5em 1.5em 1.5em;
+    margin-bottom: 1.5em;
+}
+
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
